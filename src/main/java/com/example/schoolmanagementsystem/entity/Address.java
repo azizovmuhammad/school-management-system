@@ -19,4 +19,8 @@ public class Address {
 
     @Column(nullable = false)
     private String name;
+
+    public Address(String name) {
+        this.name = name;
+    }
 }
