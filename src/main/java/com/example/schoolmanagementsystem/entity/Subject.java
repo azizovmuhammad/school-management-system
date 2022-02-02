@@ -23,4 +23,8 @@ public class Subject {
     @Column(nullable = false)
     private String description;
 
+    public Subject(String name, String description) {
+        this.name = name;
+        this.description = description;
+    }
 }
